@@ -24,10 +24,9 @@
     margin: 0 18px;
 }
 
-
-.header__phone-numbers-list > li{
-    display: inline;
-    margin: 0 8px;
+.header__phone-numbers{
+    display: flex;
+    gap: 16px;
 }
 
 .header__icons{
@@ -45,6 +44,51 @@
     border: 2px solid black;
 }
 
+.header__ico:hover{
+    cursor: pointer;
+}
+
 .header__ico_black{
     background-color: black;
+}
+
+.header__ico_burger{
+    display: none;
+}
+
+@media (max-width: 1376px){
+    .header__inner{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1120px){
+    .header__nav{
+        display: none;
+    }
+
+    .header__ico_burger{
+        display: flex;
+    }
+}
+
+@media (max-width: 670px){
+
+    .header__number-to-disable{
+        display: none;
+    }
+}
+
+@media (max-width: 500px){
+
+    .header__ico_disable{
+        display: none;
+    }
+}
+
+@media (max-width: 400px){
+
+    .header__phone-numbers{
+        display: none;
+    }
 }
