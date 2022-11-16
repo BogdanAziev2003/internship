@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    height: 124px;
+    font-weight: 500;
+    color: black
+}
+
+.header__inner{
+    width: 100%;
+    height: 124px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black  ;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list > li{
+    display: inline;
+    margin: 0 18px;
+}
+
+
+.header__phone-numbers-list > li{
+    display: inline;
+    margin: 0 8px;
+}
+
+.header__icons{
+    display: flex;
+    gap: 26px;
+}
+
+.header__ico{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.header__ico_black{
+    background-color: black;
+}
