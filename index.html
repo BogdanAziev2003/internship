@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -71,7 +72,7 @@
                         <div class="news-case__block-1 news-case__block">
                             <div class="news-case__opacity-block"></div>
                             <div class="news-case__text-block">
-                                <p>Samsung планирует производить экраны смартфонов по новой технологии Eco2 OLED</p>
+                                <p>Samsung Galaxy Buds 2 Pro получили первое обновление ПО</p>
                             </div>
                         </div>
                     </div>
@@ -103,5 +104,86 @@
             </div>
         </div>
     </div>
+
+    <div class="news">
+        <div class="container">
+            <div class="news__inner">
+                <div class="news__head">
+                    <p>Новости</p>
+                </div>
+                <div class="news__swiper">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                              <div class="news__slide">
+                                  <div class="news__slide-image">
+                                      <img src="assets/news/1.png" alt="">
+                                  </div>
+                                  <div class="news__slide-text">
+                                      <p>Samsung выпустила новое обновление ПО для смарт-часов Galaxy Watch 4 и Galaxy Watch 4 Classic</p>
+                                  </div>
+                              </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                              <div class="news__slide">
+                                  <div class="news__slide-image">
+                                      <img src="assets/news/2.png" alt="">
+                                  </div>
+                                  <div class="news__slide-text">
+                                      <p>Samsung Galaxy Buds 2 Pro получили первое обновление ПО</p>
+                                  </div>
+                              </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                              <div class="news__slide">
+                                  <div class="news__slide-image">
+                                      <img src="assets/news/3.png" alt="">
+                                  </div>
+                                  <div class="news__slide-text">
+                                      <p>Samsung представила 98-дюймовый смарт-телевизор QN100B Neo QLED TV с 4K-экраном на 120 Гц </p>
+                                  </div>
+                              </div>
+                            </div>
+    
+                            <div class="swiper-slide">
+                              <div class="news__slide">
+                                  <div class="news__slide-image">
+                                      <img src="assets/news/4.png" alt="">
+                                  </div>
+                                  <div class="news__slide-text">
+                                      <p>One UI 5.0 Beta 4 теперь доступна на смартфонах Galaxy S22 в Европе и Индии
+                                    </p>
+                                  </div>
+                              </div>
+                            </div>
+    
+                        </div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                    <div class="news__swiper-navigation">
+                        <div onclick="prevSlide()" class="news__navigation-left-arrow news__navigation-arrow">
+                            <svg width="52" height="13" viewBox="0 0 52 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.78773 2L2.07546 6.96054L6.78773 11.9211" stroke="#151E27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.5 7L50.5 7" stroke="#151E27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="news__nvigation-count">01/04</div>
+                        <div onclick="nextSlide()" class="news__navigation-right-arrow news__navigation-arrow">
+                            <svg width="52" height="13" viewBox="0 0 52 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M45.2123 2L49.9245 6.96054L45.2123 11.9211" stroke="#151E27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M49.5 7L1.5 7" stroke="#151E27" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
 </body>
 </html>
