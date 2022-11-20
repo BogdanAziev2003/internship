@@ -520,6 +520,10 @@ div{
     z-index: 1;
 }
 
+.diagnostic__btn:hover{
+    cursor: pointer;
+}
+
 .diagnistic__btn_white{
     color: black;
     background-color: white;
@@ -600,4 +604,74 @@ div{
         height: 56px;
         font-size: 1em
     }
+}
+
+
+.mab-block__title{
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 64px;
+}
+
+
+.map-block__head{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+.map-block__addresses{
+    display: flex;
+    justify-content: space-between;
+}
+
+.map-block__addresses p{
+    font-weight: 500;
+    font-size: 1em;
+    border-bottom: 2px dotted black;
+}
+
+.addresses{
+    display: flex;
+    gap: 40px;
+}
+
+.map-block__card{
+    width: 100%;
+    height: 650px;
+    margin: 64px 0;
+    display: flex;
+}
+
+.map-block__map{
+    height: 100%;
+    flex: 3;
+}
+
+.map-block iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.map-block__info{
+    flex: 1;
+    padding-left: 32px;
+}
+
+.map-block__info{
+    display: flex;
+}
+
+.map-block__choices{
+    height: 140px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #BCCADC;
+    font-weight: bold;
+    font-size: 1.6em
+}
+
+.map-block__choice{
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
