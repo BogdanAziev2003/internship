@@ -1,4 +1,4 @@
-let swiper = new Swiper(".swiper", {
+let swiper = new Swiper(".newsSwiper", {
 
   slidesPerView: 'auto',
   keyboardControl: true,
@@ -16,4 +16,3 @@ let swiper = new Swiper(".swiper", {
   }
 }
 });
-
