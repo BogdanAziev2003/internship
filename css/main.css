@@ -606,7 +606,7 @@ div{
     }
 }
 
-
+/* ------------------------------------ */
 .mab-block__title{
     font-weight: 600;
     font-size: 1em;
@@ -659,6 +659,7 @@ div{
 
 .map-block__info{
     display: flex;
+    flex-direction: column;
 }
 
 .map-block__choices{
@@ -674,4 +675,147 @@ div{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.map-block__under{
+    display: flex;
+    gap: 17.5px;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.map-block__under-list{
+    padding: 15px 0;
+}
+
+.map-block__phone-and-time{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.map-block__phone-list{
+    display: flex;
+    align-items: center;
+    height: 59px;
+    gap: 20px;
+}
+
+.map-block__phone-block{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.map-block__time-list{
+    display: flex;
+    align-items: center;
+    height: 59px;
+    gap: 20px;
+}
+
+.map-block__time-block{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.map-block__pay-block{
+    align-items: center;
+    display: flex;
+    gap: 21px;
+    margin-top: 32px;
+}
+
+.map-block__pay-list{
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.map-block__buttons{
+    margin-top: 39px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.map-block__btn{
+    width: 100%;
+    height: 56px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #151E27;
+}
+
+.map-block__btn_dark{
+    background-color: #151E27;
+    color: white
+}
+
+@media screen and (max-width: 1376px){
+    .map-block{
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 1075px){
+    .map-block__map{
+        flex: 5;
+    }
+    .map-block__info{
+        flex: 2;
+    }
+}
+@media screen and (max-width: 950px){
+    .map-block__card{
+        flex-direction: column-reverse;
+        height:  calc(470px + 100vw);
+        gap: 40px;
+    }
+    
+    .map-block__phone-and-time{
+        flex-direction: row;
+        gap: 120px;
+    }
+
+    .map-block__buttons{
+        flex-direction: row-reverse;
+    }
+
+    .map-block__head{
+        font-size: 41px;
+    }
+}
+
+@media screen and (max-width: 590px){
+    
+    .map-block__phone-and-time{
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .map-block__buttons{
+        flex-direction: column-reverse ;
+    }
+
+    .map-block__head{
+        font-size: 41px;
+    }
+
+    .addresses{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .map-block__addresses{
+        margin-top: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
 }
