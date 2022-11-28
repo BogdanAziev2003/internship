@@ -15,10 +15,7 @@ a{
     text-decoration: none;
     color: inherit;
 }
-/* 
-div{
-    border: 1px solid black;
-} */
+
 /* --------------------------------------------------------------- */
 .news-case__inner{
     font-weight: 700;
@@ -234,12 +231,16 @@ div{
     }
 }
 
+@media screen and (max-width: 320px){
+    
+    .news-case__head{
+        margin: 40px 0;
+    }
+
+}
+
 
 /* -------------------------------------------------------- */
-
-/* div{
-    border: 1px solid black;
-} */
 
 
 
@@ -434,11 +435,12 @@ div{
     .news__head,
     .case__head{
         font-size: 3.5em;
-        margin: 100px 0 30px 0;
+        margin: 100px 0 50px 0;
     }
 
     .news__inner,
     .case__inner{
+        margin-bottom: 110px;
         font-size: 14px;
     }
     .swiper-slide{
@@ -450,18 +452,22 @@ div{
         height: 690px;
     }
 
+
 }
 
 @media (max-width: 450px){
 
     .news__head,
     .case__head{
+        margin-top: 64px;
+        margin-bottom: 30px;
         font-size: 3em;
     }
 
     .news__inner,
     .case__inner{
         font-size: 12px;
+        margin-bottom: 70px;
     }
 
     .swiper-slide{
@@ -490,7 +496,7 @@ div{
     justify-content: space-between;
     padding: 0 64px;
     color: white;
-    margin-bottom: 200px;
+    margin-bottom: 168px;
     border-radius: 32px;
     background: url('../assets/diagnostic.jpeg');
     background-repeat: no-repeat;
@@ -551,6 +557,7 @@ div{
     .diagnostic{
         padding: 0 20px;
     }
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -581,6 +588,7 @@ div{
 
     .diagnostic__inner{
         height: 310px;
+        margin-bottom: 106px;
         padding: 0 16px;
     }
 
@@ -606,6 +614,13 @@ div{
     }
 }
 
+@media screen and (max-width: 390px) {
+    
+    .diagnostic__inner{
+        margin-bottom: 64px;
+    }
+}
+
 /* ------------------------------------ */
 .mab-block__title{
     font-weight: 600;
@@ -620,6 +635,7 @@ div{
 }
 
 .map-block__addresses{
+    margin-top: 32px;
     display: flex;
     justify-content: space-between;
 }
@@ -839,7 +855,36 @@ div{
     .map-block__addresses{
         margin-top: 16px;
     }
+}
 
+@media screen and (max-width: 490px){
+    .map-block{
+        font-size: 12px;
+    }
+
+    .map-block__head{
+        font-size: 26px;
+    }
+
+    .addresses{
+        gap: 8px;
+    }
+ 
+    .map-block__card{
+        margin-top: 40px;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+    .map-block{
+        font-size: 10px;
+    }
+
+    .map-block__card{
+        font-size: 16px;
+    }
 }
 
 
