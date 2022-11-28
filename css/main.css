@@ -233,6 +233,35 @@ a{
     }
 }
 
+@media screen and (max-width: 390px) {
+
+    .news-case__left-part{
+        height: auto;
+    }
+
+    .news-case__blocks{
+        flex-direction: row;
+        overflow: auto;
+    }
+    .news-case__right-part{
+        flex-direction: row;
+    }
+    .news-case__bottom-blocks{
+        flex-direction: row;
+    }
+
+    .news-case__block{
+        width: calc(90vw - 16px);
+        height: calc(90vw - 16px);
+        font-size: 2.5em;
+    }
+
+    .news-case__text-block{
+        width: 85%;
+    }
+}
+
+
 @media screen and (max-width: 320px){
     
     .news-case__head{
